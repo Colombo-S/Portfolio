@@ -677,22 +677,22 @@ header i:hover {
   .real-block,
   .real-block--alt {
     grid-template-columns: 1fr;
-    max-height: none;       /* ← supprime la limite de hauteur */
-    overflow: visible;      /* ← ne coupe plus le contenu */
+    max-height: none;       
+    overflow: visible;      
   }
 
-  /* Hauteur réduite pour la partie média sur mobile */
+  
   .real-media {
     min-height: 220px;
     max-height: 280px;
   }
 
-  /* Padding réduit sur mobile pour économiser de l'espace */
+  
   .real-content {
     padding: 1.5rem;
   }
 
-  /* La partie texte peut s'agrandir librement */
+  
   .real-block--alt .real-media  { order: 1; }
   .real-block--alt .real-content { order: 2; }
 }
