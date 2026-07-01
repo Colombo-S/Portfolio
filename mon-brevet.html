@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mon Brevet — Sofiane Colombo">
+  <title>Mon Brevet — Sofiane COLOMBO</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="page_contact.html">Contact</a>
+    </nav>
+    <a href="https://www.linkedin.com/in/sofiane-colombo-744582396/" target="_blank" class="linkedin-icon">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </header>
+
+  <section id="detail-intro">
+    <p class="eyebrow">Application web · Révision DNB</p>
+    <h1>Mon Brevet</h1>
+    <p class="intro-text">
+      Une application de révision pour le Brevet des collèges, où le contenu
+      pédagogique est généré en temps réel par une IA. De l'idéation au
+      déploiement, un projet technique mené de bout en bout, aujourd'hui
+      utilisé par un collège entier à Marseille.
+    </p>
+    <div class="intro-divider"></div>
+  </section>
+
+  <main id="detail-projects">
+
+    <!-- CARTE 1 — Idéation & expérimentation IA -->
+    <article class="detail-block">
+      <div class="detail-media detail-media--visual">
+  <div class="decision-matrix">
+    <div class="decision-row">
+      <span class="decision-label">Nature du contenu</span>
+      <div class="decision-options">
+        <span class="decision-chip discarded"><i class="fa-solid fa-xmark"></i> Statique</span>
+        <span class="decision-chip chosen"><i class="fa-solid fa-check"></i> Génératif</span>
+      </div>
+    </div>
+    <div class="decision-row">
+      <span class="decision-label">Couverture du programme</span>
+      <div class="decision-options">
+        <span class="decision-chip discarded"><i class="fa-solid fa-xmark"></i> Partielle</span>
+        <span class="decision-chip chosen"><i class="fa-solid fa-check"></i> Exhaustive</span>
+      </div>
+    </div>
+    <div class="decision-row">
+      <span class="decision-label">Source de vérité</span>
+      <div class="decision-options">
+        <span class="decision-chip discarded"><i class="fa-solid fa-xmark"></i> Approximative</span>
+        <span class="decision-chip chosen"><i class="fa-solid fa-check"></i> Programme officiel</span>
+      </div>
+    </div>
+  </div>
+  <span class="media-badge">Idéation</span>
+</div>
+      <div class="detail-content">
+        <p class="detail-tag"><i class="fa-solid fa-lightbulb"></i> Réflexion produit — Assisté par IA</p>
+        <h2>Mon Brevet<br>Faire émerger le bon concept</h2>
+        <p>
+          Point de départ : un besoin identifié sur le terrain, celui d'un professeur
+          cherchant à outiller ses élèves de 3ème pour le Brevet. Le concept a été
+          construit par itérations successives avec l'IA — challengé, remis en
+          question, confronté aux contraintes réelles du DNB avant d'aboutir à une
+          architecture complète.
+        </p>
+        <p>
+          Ce travail d'expérimentation a permis d'arbitrer entre plusieurs approches
+          (contenu statique vs génératif, couverture partielle vs exhaustive) et
+          d'aligner l'outil sur le programme officiel des 6 matières, vérifié
+          chapitre par chapitre.
+        </p>
+        <div class="detail-skills">
+          <span>Idéation</span>
+          <span>Prompt engineering</span>
+          <span>Cadrage produit</span>
+          <span>Programme DNB</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- CARTE 2 — Développement & intégration API -->
+    <article class="detail-block detail-block--alt">
+      <div class="detail-media">
+        <img src="./asset/mon-brevet-generation.png" alt="Écran de génération de contenu par l'IA" />
+        <span class="media-badge">Développement</span>
+      </div>
+      <div class="detail-content detail-content--light">
+        <p class="detail-tag"><i class="fa-solid fa-code"></i> Développement — JavaScript / Gemini API</p>
+        <h2>Créer et connecter<br>le moteur d'intelligence artificielle</h2>
+        <p>
+          Développement de l'application et intégration d'une API de génération de
+          contenu, permettant de créer des fiches, quiz et exercices uniques à chaque
+          utilisation. Un chantier technique itératif : fiabilisation du format de
+          sortie, correction des biais de génération, gestion de la charge en usage
+          simultané.
+        </p>
+        <p>
+          Le passage d'une IA intégrée nativement à une architecture propre —
+          fonctions serverless isolant la clé API — a structuré une bonne partie
+          du développement, dans une logique de sécurité et de coût maîtrisé.
+        </p>
+        <div class="detail-skills">
+          <span>JavaScript</span>
+          <span>Gemini API</span>
+          <span>Netlify Functions</span>
+          <span>Prompt engineering</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- CARTE 3 — Hébergement & déploiement -->
+    <article class="detail-block">
+      <div class="detail-media detail-media--landscape">
+        <img src="./asset/mon-brevet-accueil.png" alt="Application Mon Brevet en production" />
+        <span class="media-badge">Déploiement</span>
+      </div>
+      <div class="detail-content">
+        <p class="detail-tag"><i class="fa-solid fa-cloud-arrow-up"></i> Mise en production — GitHub / Netlify</p>
+        <h2>Du fichier local<br>à l'application accessible partout</h2>
+        <p>
+          Déploiement complet en production : dépôt GitHub connecté à Netlify,
+          gestion des variables d'environnement, sécurisation de la clé API et
+          suivi des coûts d'usage. Un travail de résolution méthodique, fichier
+          par fichier, jusqu'à obtenir un lien stable et accessible sur tous
+          les appareils.
+        </p>
+        <p>
+          L'app est passée d'un simple prototype ouvert en local à un site en
+          ligne réellement utilisable par des élèves, sans installation ni
+          compte à créer.
+        </p>
+        <div class="detail-skills">
+          <span>GitHub</span>
+          <span>Netlify</span>
+          <span>Serverless</span>
+          <span>Gestion de projet</span>
+        </div>
+      </div>
+    </article>
+
+    <!-- CARTE 4 — Refonte UI/UX -->
+    <article class="detail-block detail-block--alt">
+      <div class="detail-media detail-media--logo">
+        <img src="./asset/mon-brevet-logo.png" alt="Logo Mon Brevet — sceau officiel" />
+        <span class="media-badge">UI/UX</span>
+      </div>
+      <div class="detail-content detail-content--light">
+        <p class="detail-tag"><i class="fa-solid fa-swatchbook"></i> Direction artistique — Identité visuelle / Typographie</p>
+        <h2>Refondre l'interface<br>face au succès grandissant</h2>
+        <p>
+          Face à l'adoption réelle par des classes entières et à une demande
+          croissante, l'interface initiale — trop proche d'une maquette — a été
+          entièrement repensée. Naissance d'une identité propre : un logo en
+          forme de sceau, écho direct au chronomètre d'épreuve déjà présent
+          dans l'app.
+        </p>
+        <p>
+          Palette sobre inspirée du tableau vert et du cachet officiel, marge
+          rouge de correction comme signature visuelle, typographies dédiées
+          aux titres et à la lecture longue — une identité pensée pour rester
+          crédible aux yeux d'un principal ou d'un rectorat.
+        </p>
+        <div class="detail-skills">
+          <span>Direction artistique</span>
+          <span>Identité visuelle</span>
+          <span>Typographie</span>
+          <span>UI design</span>
+        </div>
+      </div>
+    </article>
+
+    <a href="realisations.html" class="detail-back">
+      <i class="fa-solid fa-arrow-left"></i> Toutes les réalisations
+    </a>
+
+  </main>
+
+  <footer>
+    <p>© 2026 · Sofiane COLOMBO · Marseille</p>
+    <div class="footer-links">
+      <a href="index.html">Accueil</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="page_contact.html">Contact</a>
+      <a href="https://www.linkedin.com/in/sofiane-colombo-744582396/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    const blocks = document.querySelectorAll('.detail-block');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    blocks.forEach(b => observer.observe(b));
+  </script>
+
+</body>
+</html>
